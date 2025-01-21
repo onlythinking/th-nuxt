@@ -1,13 +1,8 @@
 <template>
-  <div>
-    <!-- <ECGChart /> -->
-    <ECGCanvas />
-  </div>
+  <div />
 </template>
 
 <script setup lang="ts">
-  import ECGCanvas from '~/components/ECGCanvas.vue';
-
   definePageMeta({
     middleware: 'auth',
   });

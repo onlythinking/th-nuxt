@@ -1,9 +1,11 @@
 <template>
   <div>
-    <!-- <NuxtLoadingIndicator /> -->
+    <NuxtLoadingIndicator />
     <div h-full w-full of-hidden font-sans transition duration-0>
       <div of-x-hidden of-y-auto>
-        <NuxtPage />
+        <NuxtLayout>
+          <NuxtPage />
+        </NuxtLayout>
       </div>
     </div>
   </div>
@@ -14,15 +16,15 @@
 
   useHead({
     htmlAttrs: {
-      lang: 'zh-CN',
+      lang: 'en',
     },
     charset: 'utf-8',
-    title: 'Hello Nuxt',
-    titleTemplate: title => (title !== 'Hello Nuxt' ? `${title} · Hello Nuxt` : title),
+    title: 'Recruitment',
+    titleTemplate: title => (title !== 'Recruitment Website✨' ? `${title} · Recruitment Website✨` : title),
     meta: [
       {
         name: 'description',
-        content: 'Nuxt3 学习例子✨',
+        content: 'Recruitment Website✨',
       },
     ],
   });

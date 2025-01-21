@@ -26,6 +26,7 @@ export default defineNuxtConfig({
   },
 
   modules: [
+    '@vant/nuxt',
     '@unocss/nuxt',
     '@nuxt/icon',
     '@nuxt/eslint',
@@ -78,7 +79,7 @@ export default defineNuxtConfig({
     vueI18n: './i18n.config.ts',
     detectBrowserLanguage: {
       useCookie: true,
-      fallbackLocale: 'zh-CN',
+      fallbackLocale: 'en',
     },
     strategy: 'no_prefix',
     locales: [
@@ -96,7 +97,7 @@ export default defineNuxtConfig({
     ],
     lazy: true,
     langDir: 'internationalization',
-    defaultLocale: 'zh-CN',
+    defaultLocale: 'en',
   },
 
   css: ['~/assets/styles/main.css'],
