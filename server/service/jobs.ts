@@ -1,6 +1,27 @@
 export const jobs = [
+{ id: 1, type: 'Marketing', img: '/assets/images/index_bg.jpg', jobName: 'App Ranking Assistant', company: 'AppGrowth Solutions', url: '', base: 'San Francisco, California, USA', tags: ['Unlimited experience', 'Unlimited education', 'Data Analysis', 'SEO'], salary: 'Generous salary', responsibilities: `
+      <ul>
+        <li>Complete simple APP download and use tasks.</li>
+        <li>Help us improve the ranking of APP in the app store.</li>
+      </ul>
+    `, requirements: `
+      <ul>
+        <li>Curious about new things.</li>
+        <li>Good learning ability.</li>
+        <li>Love the Internet.</li>
+        <li>Excellent written and verbal communication skills.</li>
+      </ul>
+    `, benefits: `
+      <p><strong>Salary Details:</strong></p>
+      <ul>
+        <li>Generous virtual currency rewards</li>
+        <li>Free time and location.</li>
+        <li>Close contact with the digital currency industry.</li>
+        <li>Welcome to join our team and explore the infinite possibilities of digital currency together!</li>
+      </ul>
+    `, employer: 'Emily Clark, Recruitment Specialist' },
     {
-      id: 1,
+      id: 2,
       type: 'Engineering',
       img: '/assets/images/index_bg.jpg',
       jobName: 'Software Engineer (Frontend)',
@@ -15,7 +36,7 @@ export const jobs = [
       employer: 'Jane Doe, Hiring Manager',
     },
     {
-      id: 2,
+      id: 3,
       type: 'Product',
       img: '',
       jobName: 'Product Manager',
@@ -30,7 +51,7 @@ export const jobs = [
       employer: 'John Smith, Product Lead',
     },
     {
-      id: 3,
+      id: 4,
       type: 'Design',
       img: '/assets/images/index_bg.jpg',
       jobName: 'UX Designer',
@@ -45,7 +66,7 @@ export const jobs = [
       employer: 'Emily Johnson, Design Manager',
     },
     {
-      id: 4,
+      id: 5,
       type: 'Data Science',
       img: '',
       jobName: 'Data Scientist',
@@ -60,7 +81,7 @@ export const jobs = [
       employer: 'Michael Brown, Data Science Manager',
     },
       {
-        id: 5,
+        id: 6,
         type: 'Engineering',
         img: '',
         jobName: 'Backend Developer',
@@ -75,7 +96,7 @@ export const jobs = [
         employer: 'Sarah Lee, HR Manager',
       },
       {
-        id: 6,
+        id: 7,
         type: 'Marketing',
         img: '/assets/images/index_bg.jpg',
         jobName: 'Digital Marketing Specialist',
@@ -90,7 +111,7 @@ export const jobs = [
         employer: 'Alex Johnson, Marketing Director',
       },
       {
-        id: 7,
+        id: 8,
         type: 'Engineering',
         img: '/assets/images/index_bg.jpg',
         jobName: 'Full Stack Developer',
@@ -105,7 +126,7 @@ export const jobs = [
         employer: 'Rachel Green, Tech Recruiter',
       },
       {
-        id: 8,
+        id: 9,
         type: 'Data Science',
         img: '/assets/images/index_bg.jpg',
         jobName: 'Data Engineer',
@@ -120,7 +141,7 @@ export const jobs = [
         employer: 'Peter Parker, Data Science Lead',
       },
       {
-        id: 9,
+        id: 10,
         type: 'HR',
         img: '/assets/images/index_bg.jpg',
         jobName: 'HR Specialist',

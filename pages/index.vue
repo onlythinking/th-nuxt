@@ -86,7 +86,7 @@
 <script setup lang="ts">
   const keyword = ref('');
 
-  const hotJobs = ref<string[]>(['Sale', 'Java', 'PHP', 'Safety Engineer', 'Financial Analyst', 'Data Analyst']);
+  const hotJobs = ref<string[]>(['Marketing', 'Sale', 'Safety Engineer', 'Financial Analyst', 'Data Analyst', 'Design']);
 
   const featuredJobs = ref<any>([]);
 

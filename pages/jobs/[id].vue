@@ -36,7 +36,7 @@
       <div class="mt-sm rounded-md th-card p-sm">
         <div class="flex justify-between py-xs text-xl th-title">
           <div>Job Description</div>
-          <div class="px-md text-red">
+          <div class="px-md text-center text-red">
             {{ job.salary }}
           </div>
         </div>
