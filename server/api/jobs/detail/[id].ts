@@ -1,5 +1,13 @@
 import { jobs } from '../../../service/jobs';
 
+defineRouteMeta({
+  openAPI: {
+    tags: ['Job'],
+    description: 'Job detail',
+    parameters: [{ in: 'query', name: 'id', required: true }],
+  },
+});
+
 export default defineEventHandler(async (event) => {
   const id = Number(getRouterParam(event, 'id')) || 1;
 

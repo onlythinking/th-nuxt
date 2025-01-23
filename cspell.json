@@ -13,6 +13,7 @@
     "brotli",
     "clsx",
     "cnjm",
+    "dedupe",
     "defu",
     "demi",
     "docsify",
