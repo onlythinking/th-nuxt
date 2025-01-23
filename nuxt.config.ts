@@ -36,6 +36,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@nuxtjs/i18n',
     '@nuxt/image',
+    '@nuxthub/core',
   ],
   // https://icones.js.org/
   icon: {

@@ -113,7 +113,7 @@ export default defineConfig<Theme>({
     ['th-card', 'bg-white'],
     [/^th-gray-(.*)$/, ([, d]) => `bg-gray-${d} dark:bg-dark`],
 
-    ['th-title', 'text-light-title dark:text-dark-title text-md font-500 leading-normal  leading-[1.4]'],
+    ['th-title', 'text-md font-500 leading-normal  leading-[1.4]'],
     [/^th-title-(md|lg|xl|xxl)$/, ([, size]) => `text-${size} font-500  leading-[1.4]`],
 
     [/^th-text-(primary|success|warning|error|info)-(xs|sm|md|lg|xl)$/, ([, type, size]) => `text-${type} dark:text-dark-${type} text-${size} leading-normal`],
