@@ -1,8 +1,8 @@
 <template>
   <div>
-    <NuxtLoadingIndicator />
-    <div class="th-page h-screen w-screen of-hidden font-sans transition duration-0">
+    <div class="h-screen w-screen of-hidden th-page font-sans transition duration-0">
       <div of-x-hidden of-y-auto>
+        <NuxtLoadingIndicator />
         <NuxtLayout>
           <NuxtPage />
         </NuxtLayout>

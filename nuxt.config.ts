@@ -37,6 +37,8 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     '@nuxt/image',
     '@nuxthub/core',
+    '@formkit/auto-animate/nuxt',
+    'nuxt-particles',
   ],
   // https://icones.js.org/
   icon: {
@@ -73,6 +75,7 @@ export default defineNuxtConfig({
   nitro: {
     routeRules: {
       '/**': { isr: false },
+      '/video/**': { proxy: 'http://127.0.0.1:8082/app/**' },
     },
   },
 
